@@ -1,3 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NORTHERN ARSENAL", "DarkTheme")
+local Tab = Window:NewTab("AIMBOT")
+
 local CurrentCamera = workspace.CurrentCamera
 local Players = game.GetService(game, "Players")
 local LocalPlayer = Players.LocalPlayer
