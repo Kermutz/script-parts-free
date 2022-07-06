@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("NORTHERN ARSENAL", "Synapse")
 local Main = Window:NewTab("Main")
-local RAGE = Main:NewSection("RAGE")
-RAGE:NewButton("ButtonText", "ButtonInfo", function()
+local Rage = Main:NewSection("Rage")
+
     print("Aimbot enabled")
     local CurrentCamera = workspace.CurrentCamera
     local Players = game.GetService(game, "Players")
